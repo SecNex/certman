@@ -1,0 +1,6 @@
+*.pem
+*.key
+serial
+**/output/**
+**/logs/**
+main.go
