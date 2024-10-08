@@ -1,4 +1,4 @@
-module github.com/secnex/certman/cert
+module github.com/secnex/certman
 
 go 1.22.6
 
