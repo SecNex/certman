@@ -1,6 +1,6 @@
 package ca
 
-import "github.com/secnex/certman/cert/manager/cert"
+import "github.com/secnex/certman/manager/cert"
 
 type CA struct {
 	CustomerID  string

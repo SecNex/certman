@@ -1,7 +1,7 @@
 package manager
 
 import (
-	"github.com/secnex/certman/cert/manager/cert/ca"
+	"github.com/secnex/certman/manager/cert/ca"
 )
 
 func CreateRootCA(customerID string, passphrase *string, path string, organization string, organizationalUnit string, commonName string, country string, province string, locality string, emailAddress string) *string {

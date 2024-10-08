@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/secnex/certman/cert/manager/cert"
+	"github.com/secnex/certman/manager/cert"
 )
 
 func Load(customerID string, authorityID string, passphrase *string, path string, alias string, intermediate bool) *CA {

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/secnex/certman/cert/manager/cert"
+	"github.com/secnex/certman/manager/cert"
 )
 
 func New(customerID string, passphrase *string, path string) *CA {

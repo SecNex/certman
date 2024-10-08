@@ -4,3 +4,4 @@ serial
 **/output/**
 **/logs/**
 main.go
+**/.env*

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/secnex/certman/cert/manager/cert"
+	"github.com/secnex/certman/manager/cert"
 )
 
 func (ca *CA) CreateSubCA(organization string, organizationalUnit string, commonName string, country string, province string, locality string, emailAddress string) *cert.Certificate {

@@ -3,8 +3,8 @@ package manager
 import (
 	"fmt"
 
-	"github.com/secnex/certman/cert/manager/cert"
-	"github.com/secnex/certman/cert/manager/cert/ca"
+	"github.com/secnex/certman/manager/cert"
+	"github.com/secnex/certman/manager/cert/ca"
 )
 
 func CreateIntermediateCA(rootCA *ca.CA, organization string, organizationalUnit string, commonName string, country string, province string, locality string, emailAddress string) *cert.Certificate {
