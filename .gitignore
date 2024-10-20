@@ -3,5 +3,14 @@
 serial
 **/output/**
 **/logs/**
+**/certs/**
 main.go
-**/.env*
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+**/.env.local.development
+**/.env.local.test
+**/.env.local.production
+**/node_modules/**
