@@ -14,3 +14,4 @@ main.go
 **/.env.local.test
 **/.env.local.production
 **/node_modules/**
+**/.DS_Store
